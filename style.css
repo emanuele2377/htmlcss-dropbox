@@ -86,7 +86,7 @@ main > .container {
 	background: rgb(68, 150, 204);
     display: flex;
     width: 100%;
-    height: 400px;
+    height: 430px;
     margin: auto;
     padding: 10px;
 
@@ -96,36 +96,62 @@ p {
 
    padding-top: 40px;
     width: 40%;
+    margin: auto;
 }
 
+.bot {
+    background-color:blue;
+    color: white;
+    padding: 10px;
+}
 
 .contenitore {
 
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
-    
 }
 
 .jumbo {
-    padding-top:50px;
-    padding-left: 100px;
-    width: 60%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding-top: 100px;
+
+}
+
+.freccia {
+    padding-left: 200px;
+    padding-top: 15px;
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
    
+    text-align: center;
+    padding-top: 300px;
+
 }
 
-.bot {
-
-    
-    background-color:blue;
-    color: white;
+.scatola {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     
 }
 
-
-
+.scatola ul {
+    display: flex;
+    padding: auto;
+    
+}
+.menu {
+    
+    display: flex;
+    
+}
 
