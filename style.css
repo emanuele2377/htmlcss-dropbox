@@ -84,21 +84,20 @@ main > .container {
 }
 
 .chetiserve {
+
 	background: rgb(68, 150, 204);
     display: flex;
     width: 100%;
     height: 430px;
     margin: auto;
     padding: 10px;
-
 }
 
-p {
+.allinea {
+    padding-top: 40px;
+     width: 40%;
 
-   padding-top: 40px;
-    width: 40%;
-    margin: auto;
-}
+ }
 
 .bot {
     background-color:blue;
@@ -113,10 +112,10 @@ p {
 }
 
 .jumbo {
-    width: 100%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
-    padding-top: 100px;
+    padding-top: 40px;
 
 }
 
@@ -133,7 +132,7 @@ h1 {
 .trova {
    
     text-align: center;
-    padding-top: 300px;
+    padding-top: 100px;
 
 }
 
@@ -151,7 +150,7 @@ h1 {
     
 }
 .menu {
-    
+    padding-bottom: 50px;
     display: flex;
     
 }
@@ -159,20 +158,28 @@ h1 {
 .colonne{
     
     background-color: white;
-    width: calc(100% / 3);
-    min-height: 500px;
+    min-height: 300px;
     display: flex;
     justify-content: space-around;
-    padding-top: 50px;
+    
+    text-indent: 4px;
+
+    
 }
 
 
 .rigo{
-   
+
+    width: 33%;
     background-color:white;
     min-height: 490px;
     border: solid 1px black;
-    
+    display: flex;
+}
+
+.linea {
+
+    border: solid 1px;
 }
 
 .centro {
@@ -200,4 +207,98 @@ h1 {
     background-color: blue;
     color: white;
     padding: 5px;
+
 }
+
+.spazio {
+    width: 25%;
+    border:solid 1px black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.blu {
+    color: rgb(100, 184, 239);
+    text-align: justify;
+}
+
+.team {
+    padding-top: 100px;
+	background:white;
+	width: 100%;
+	min-height: 200px;
+    display: flex;
+    
+
+}
+.cont {
+
+    background-color: white;
+    width: 70%;
+    min-height: 250px;
+    margin: auto;
+    border: solid black 1px;
+    
+}
+
+.te {
+    
+    border-bottom: solid black 1px;
+    display: flex; 
+    justify-content: center;
+    padding: 20px;
+}
+
+.insieme {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contatta {
+
+display:flex;
+background-color: blue;
+color: white;
+padding: 8px;
+    
+}
+
+.contenitorefoto {
+  
+    padding-top: 100px;
+	background:white;
+	width: 100%;
+	min-height: 200px;
+    display: flex;
+}
+
+.contfo {
+
+    background-color: white;
+    width: 70%;
+    min-height: 250px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.soci {
+    width: 60%;
+}
+
+.partner {
+    display: flex;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 60%;
+}
+
+.sotto {
+    display: flex;
+    -webkit-padding-start: 20px;
+}
+
+
