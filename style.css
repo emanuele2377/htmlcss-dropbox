@@ -47,6 +47,7 @@ nav a {
 nav ul {
 	list-style-type: none;
 	display: flex;
+    align-items: center;
 }
 
 .menu-left li {
@@ -129,7 +130,7 @@ h1 {
     text-align: center;
 }
 
-h2 {
+.trova {
    
     text-align: center;
     padding-top: 300px;
@@ -155,3 +156,48 @@ h2 {
     
 }
 
+.colonne{
+    
+    background-color: white;
+    width: calc(100% / 3);
+    min-height: 500px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+
+.rigo{
+   
+    background-color:white;
+    min-height: 490px;
+    border: solid 1px black;
+    
+}
+
+.centro {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: solid 1px black;
+    
+}
+
+.lista {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 4px;
+}
+
+.pro {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.pulsante {
+
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
