@@ -12,7 +12,7 @@ body {
 
 .container {
 	display: flex;
-	max-width: 1100px;
+	
 	
 }
 
@@ -52,9 +52,11 @@ nav ul {
 
 .menu-left li {
  padding: 5px;
+ 
 }
 .menu-right li {
 	padding: 5px;
+    
 }
 
 .logo {
@@ -64,7 +66,7 @@ nav ul {
 }
 
 .bottone {
-    background-color: rgb(27, 27, 170);
+    background-color: #0061ff;
     color: white;
     display:flex;
     justify-content: flex-end;
@@ -136,23 +138,35 @@ h1 {
 
 }
 
-.scatola {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.fatturazione {
+       padding-bottom: 5%;
+       padding-top: 5%;
+       display: flex;
+       justify-content:flex-start;
+       
+}
+
+.radio {
+
+    display: inline-block;
+    height: 1.5em;
+    width: 1.5em;
+    vertical-align: middle;
+    border: 1px solid lightgray;
+    background: white;
+    border-radius: 50%;
+    margin-left: 5%;
+}
+
+
+.radio-checked {
+border: 5px solid #0061ff;
+margin-left: 7%;
     
 }
 
-.scatola ul {
-    display: flex;
-    padding: auto;
-    
-}
-.menu {
-    padding-bottom: 50px;
-    display: flex;
-    
+.radio-label {
+vertical-align: middle;
 }
 
 .colonne{
@@ -220,7 +234,7 @@ h1 {
 
 .blu {
     color: rgb(100, 184, 239);
-    text-align: justify;
+    
 }
 
 .team {
@@ -229,6 +243,7 @@ h1 {
 	width: 100%;
 	min-height: 200px;
     display: flex;
+    
     
 
 }
@@ -271,6 +286,7 @@ padding: 8px;
 	width: 100%;
 	min-height: 200px;
     display: flex;
+    padding-bottom: 100px;
 }
 
 .contfo {
@@ -301,4 +317,94 @@ padding: 8px;
     -webkit-padding-start: 20px;
 }
 
+.trovaun {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border: solid black 1px;
+    padding: 8px;
+    margin-left: 20px;
+}
 
+.esegui {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.tessere {
+    width: 60%;
+    display: flex;
+}
+
+.afianco {
+    display: flex;
+  padding-left: 80px;
+  padding-bottom: 100px;
+}
+
+.pad {
+    padding-left: 6%;
+    padding-bottom: 5%;
+}
+
+.clienti {
+    padding-bottom: 10%;
+}
+
+.scopri{
+   color: rgb(79, 146, 241);
+   padding-left: 6%;
+}
+
+.contenitore-img {
+
+display: flex;
+
+}
+
+.primo-quadrato {
+    width: 250px;
+    height: 250px;
+    background-color:rgb(165, 216, 89);
+    display: flex;  
+}
+
+.img {
+    fill: white;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.secondo-quadrato {
+    width: 250px;
+    height: 250px;
+    background-color:#4F0112;
+    display: flex;  
+}
+
+.terzo-quadrato {
+    width: 250px;
+    height: 250px;
+    background-color:#0061ff;
+    display: flex;  
+}
+
+.quarto-quadrato {
+    width: 250px;
+    height: 250px;
+    background-color:red;
+    display: flex;  
+}
+
+.meta {
+
+}
+
+.meta-img {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+
+}
